@@ -1,0 +1,11 @@
+{
+    "path": "cardio_train.csv",
+    "features": ["age", "weight", "smoke", "active", "alco", "cholesterol", "gluc"],
+    "target": "ap_hi",
+    "label": "Blood pressure",
+    "output": "linear_reg.png",
+    "filters": {
+        "ap_hi": [70, 240],
+        "weight": [40, 200]
+    }
+}
